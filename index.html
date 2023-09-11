@@ -10,25 +10,34 @@
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-      <div class="container-fluid p-5 text-white text-center">
-        <h1>Jamie Wheeler</h1>
-        <ul class="nav justify-content-center">
-            <li class="nav-item">
-              <a class="btn btn-secondary" href="#">About Me</a>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="about.html">Jamie Wheeler</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="about.html">About Me</a>
             </li>
             <li class="nav-item">
-              <a class="btn btn-primary" href="#">Projects</a>
+              <a class="nav-link active" href="index.html">Projects</a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link" href="stuff.html">Random Stuff</a>
+              </li>
           </ul>
-      </div>
+        </div>
+      </nav>
       
       <div class="container">
         <div class="row text-center">
           <div class="col-md-6">
             <h3>Python Patch Designer</h3>
             <p>University project created as part of a teamwork exercise for my programming coursework.</p>
-            <p></p>
-            <p>TBD</p>
+            <p>This project was created using Python with the Graphics.py library by John Zelle. Its purpose is to create a custom patchwork design specified by the user.</p>
+            <p>For this project I learnt how to manipulate 2D graphics using maths, and how to operate in a programming team.</p>
           </div>
           <div class="col-md-6">
             <img class="" src="assets/python-patch-designer.png">
